@@ -67,10 +67,11 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer
-    .prompt((response)=>{
-        console.log(response);
-        let inputString = generateMarkdown(response);
-        console.log(inputString);
+    .prompt(questions)
+    .then(response => {
+        console.log(response)
+        let inputString = generateMarkdown(response)
+        console.log(inputString)
 
         writeToFile('README.md', inputString)
     })

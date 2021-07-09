@@ -23,6 +23,13 @@ return `
 ${renderLicenseBadge(data.license)}
 ## Description
 ${data.description}
+## Contents
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Contribution](#Contributions)
+* [Test](#Test)
+* [License](#License)
+* [Contact](#Questions?)
 ## Installation
  ${data.installation}
 ## Usage

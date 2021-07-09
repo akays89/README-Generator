@@ -25,5 +25,5 @@ MIT
 Please feel free to contact me at amandakays89@gmail.com for questions or feedback. 
 To see other projects, please visit https://github.com/akays89/.
 
-Video Demo
+<h2>Video Demo</h2>
 https://www.loom.com/share/e1ed5c9fb1ec437d9ad9dd7516fa3464
